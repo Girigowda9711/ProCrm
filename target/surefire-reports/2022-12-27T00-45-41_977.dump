@@ -1,4 +1,4 @@
-# Created at 2022-12-27T00:29:21.102
+# Created at 2022-12-27T00:45:43.427
 Boot Manifest-JAR contains absolute paths in classpath E:\ProCrm.Framework\target\test-classes
 java.lang.IllegalArgumentException: 'other' has different root
 	at sun.nio.fs.WindowsPath.relativize(WindowsPath.java:392)
@@ -37,7 +37,7 @@ java.lang.IllegalArgumentException: 'other' has different root
 	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)
 
 
-# Created at 2022-12-27T00:29:21.106
+# Created at 2022-12-27T00:45:43.430
 Boot Manifest-JAR contains absolute paths in classpath E:\ProCrm.Framework\target\classes
 java.lang.IllegalArgumentException: 'other' has different root
 	at sun.nio.fs.WindowsPath.relativize(WindowsPath.java:392)
