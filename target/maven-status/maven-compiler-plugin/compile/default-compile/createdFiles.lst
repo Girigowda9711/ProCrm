@@ -1,0 +1,3 @@
+com\Procrm\Pages\LoginPage.class
+com\Procrm\Propertyfile\PropertiesOperations.class
+com\Procrm\TestBase\BaseClass.class

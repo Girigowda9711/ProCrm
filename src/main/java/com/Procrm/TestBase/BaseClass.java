@@ -8,14 +8,18 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
+import com.Procrm.Propertyfile.PropertiesOperations;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
 
-	WebDriver driver;
-	@BeforeMethod
-	public void setUp(String browserName) {
+	protected static WebDriver driver;
 
+
+	@BeforeMethod
+	public void setUp() {
+		String browserName=PropertiesOperations.getPropertyValueByKey("browser");
 		if(browserName.equalsIgnoreCase("chrome")) {
 			WebDriverManager.chromedriver().setup();
 			driver =new ChromeDriver();
@@ -29,7 +33,7 @@ public class BaseClass {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
 		driver.manage().window().maximize();
-		driver.navigate().to("");
+		driver.navigate().to(PropertiesOperations.getPropertyValueByKey("url"));
 
 	}
 
