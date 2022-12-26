@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29867" started-at="2022-12-26T17:40:51 IST" finished-at="2022-12-26T17:41:21 IST">
+  <suite name="Default suite" duration-ms="35464" started-at="2022-12-26T21:19:40 IST" finished-at="2022-12-26T21:20:16 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29867" started-at="2022-12-26T17:40:51 IST" finished-at="2022-12-26T17:41:21 IST">
+    <test name="Default test" duration-ms="35464" started-at="2022-12-26T21:19:40 IST" finished-at="2022-12-26T21:20:16 IST">
       <class name="com.Procrm.Testcases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Procrm.Testcases.LoginPageTest@eafc191]" name="setUp" is-config="true" duration-ms="16021" started-at="2022-12-26T17:40:51 IST" finished-at="2022-12-26T17:41:07 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Procrm.Testcases.LoginPageTest@eafc191]" name="setUp" is-config="true" duration-ms="26285" started-at="2022-12-26T21:19:40 IST" finished-at="2022-12-26T21:20:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyUserCredentialTest()[pri:0, instance:com.Procrm.Testcases.LoginPageTest@eafc191]" name="verifyUserCredentialTest" duration-ms="12944" started-at="2022-12-26T17:41:07 IST" finished-at="2022-12-26T17:41:20 IST">
+        <test-method status="PASS" signature="verifyUserCredentialTest()[pri:0, instance:com.Procrm.Testcases.LoginPageTest@eafc191]" name="verifyUserCredentialTest" duration-ms="7956" started-at="2022-12-26T21:20:07 IST" finished-at="2022-12-26T21:20:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserCredentialTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Procrm.Testcases.LoginPageTest@eafc191]" name="tearDown" is-config="true" duration-ms="849" started-at="2022-12-26T17:41:20 IST" finished-at="2022-12-26T17:41:21 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Procrm.Testcases.LoginPageTest@eafc191]" name="tearDown" is-config="true" duration-ms="1114" started-at="2022-12-26T21:20:15 IST" finished-at="2022-12-26T21:20:16 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
